@@ -1,0 +1,49 @@
+.footer-wrapper {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-left-side {
+  text-align: right;
+  position: relative;
+}
+.footer-left-side:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  background-color: #d4d4d4;
+  width: 1px;
+  margin-left: 51px;
+  top: 0px;
+}
+.footer-left-side h4 {
+  color: #274c5b;
+  font-family: "Robo";
+  font-size: 30px;
+}
+.email-wrapper {
+  margin-top: 30px;
+}
+.footer-left-side p {
+  color: #274c5b;
+  font-weight: 700;
+}
+.footer-left-side span {
+  color: #274c5b;
+}
+.footer-mid-side-title {
+  display: flex;
+}
+.footer-mid-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 92px;
+}
+.footer-mid-side p {
+  text-align: center;
+}
+.footer-mid-side span {
+  display: block;
+}

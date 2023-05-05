@@ -1,0 +1,49 @@
+.subscribe-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 323px;
+  position: relative;
+}
+.subscribe-wrapper img {
+  width: 100%;
+}
+.form-wrapper {
+  position: absolute;
+  bottom: 40%;
+}
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-wrapper h3 {
+  color: #ffffff;
+  font-family: "Robo";
+  font-size: 50px;
+}
+.form-wrapper h3 span {
+  display: block;
+}
+
+input {
+  background-color: #ffffff;
+  width: 349px;
+  height: 70px;
+  border-radius: 16px;
+  border: none;
+}
+input::placeholder {
+  color: #ababab;
+  padding-left: 20px;
+}
+button {
+  padding: 23px 40px;
+  margin-left: 6px;
+  background-color: #274c5b;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 16px;
+  border: none;
+}

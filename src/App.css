@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Robo";
+  src: url("./Fonts/Roboto-Regular.ttf") format("ttf"),
+    url("./Fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url("./Fonts/Yellowtail-Regular.ttf") format("ttf"),
+    url("./Fonts/Yellowtail-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
